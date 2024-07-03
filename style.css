@@ -288,6 +288,7 @@ a:hover {
 
 #bloc-2-services p {
   font-size: 11px;
+  /* color: black   */
 }
 
 .navbar {
@@ -655,7 +656,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-weight: 800;   
+  font-weight: 700;   
   /* color: #575757!important; */
   /*  Used the default color ... WTM color: #575757!important; */
   
