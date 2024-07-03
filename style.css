@@ -655,7 +655,8 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-weight: 500;   
+  font-weight: 800;   
+  /* color: #575757!important; */
   /*  Used the default color ... WTM color: #575757!important; */
   
 }
@@ -729,7 +730,8 @@ h3 {
 }
 
 h1 {
-  /* color: #333333!important; */
+  /* WTM color: #333333!important; */
+  color: #ffffff;
 }
 
 h4 {
@@ -779,15 +781,18 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  /* background-color: #364577; */
+  /* background-color: #424242; */
+  background-color: #000000
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #f3976c;  
 }
 
 .tc-white {
   /* Used the default color ... WTM color: #364577!important;  */
+  color: #ffffff;
   
 }
 
