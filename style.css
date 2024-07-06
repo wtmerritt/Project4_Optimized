@@ -93,7 +93,6 @@ a:hover {
 }
 
 .texture-paper::before {
-  /* WTM background: url("img/texture-paper.png"); */
   background: url("img/texture-paper.webp");
   background-size: 280px 280px;
 }
@@ -656,10 +655,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
-  font-weight: 700;   
-  /* color: #575757!important; */
-  /*  Used the default color ... WTM color: #575757!important; */
-  
+  font-weight: 700;
 }
 
 .container {
@@ -731,7 +727,6 @@ h3 {
 }
 
 h1 {
-  /* WTM color: #333333!important; */
   color: #ffffff;
 }
 
@@ -783,18 +778,14 @@ h4 {
 
 .bgc-dark-slate-blue {
   background-color: #364577;
-  /* background-color: #424242; */
-  /* background-color: #000000 */
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;  
+  background-color: #f3976c;
 }
 
 .tc-white {
-  /* Used the default color ... WTM color: #364577!important;  */
   color: #ffffff;
-  
 }
 
 .btn-atomic-tangerine {
@@ -837,13 +828,11 @@ h4 {
 }
 
 .bg-atlanta-20made-20sign {
-  /* WTM background-image: url("img/atlanta%20made%20sign.jpg"); */
   background-image: url("img/atlanta%20made%20sign.webp");
 }
 
 .bg-atlanta-20made-20sign-20orange {
-  /* WTM background-image: url("img/atlanta%20made%20sign%20orange.jpg"); */
-  background-image: url("img/atlanta%20made%20sign%20orange.webp")
+  background-image: url("img/atlanta%20made%20sign%20orange.webp");
 }
 
 @media (max-width: 1024px) {
@@ -893,9 +882,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    /* padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right); */
+  .bloc { 
   }
   .bloc-group,
   .bloc-group .bloc {
@@ -904,9 +891,7 @@ h4 {
   }
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-    /* padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right); */
+    padding: 0 20px;    
   }
 }
 
